@@ -1,0 +1,6 @@
+>>> SILENT LOAD MODE: Replaying <<<
+Comparing results...
+Actual: test_1_game.result.txt
+Expected: adv-world-cmp.result.txt
+============= TEST PASSED! =============
+Press any key to exit...

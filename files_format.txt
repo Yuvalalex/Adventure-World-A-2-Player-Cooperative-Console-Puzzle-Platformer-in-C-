@@ -1,0 +1,68 @@
+===============================================================================
+FILE FORMATS (Steps + Results)
+Project: Adventure World (C++)
+===============================================================================
+
+1) Steps file: <base>.steps.txt
+--------------------------------
+Purpose:
+- Records only user inputs that cannot be derived (key presses) with a game cycle.
+- Used by -load and -load-silent to replay the run deterministically.
+
+Format:
+- Text file, one record per line.
+- Lines can be in any order; the program uses the tick value.
+- Supported line types:
+
+A) Game seed header (optional, recommended)
+   SEED <seed>
+   - <seed> is a non-negative integer.
+   - On replay, srand(seed) is called so all rand()-based logic is deterministic.
+
+B) Input event
+   <tick> <keyCode>
+   - <tick> is the game cycle (0-based).
+   - <keyCode> is the ASCII integer value of the pressed key.
+   - Examples:
+     7 120    (key 'x')
+     11 100   (key 'd')
+
+C) End marker (required for proper replay termination)
+   END <tick>
+   - <tick> is the last cycle to simulate.
+   - Replay ends after that cycle.
+
+Notes / limitations:
+- The current implementation stores a single key per tick; if multiple keys are recorded
+  on the same tick, the last one overrides previous ones.
+
+
+2) Result file: <base>.result.txt
+---------------------------------
+Purpose:
+- A time-stamped event log for automatic comparison in -silent.
+
+Format:
+- Text file, one record per log line.
+- The program writes events using:
+  [Tick: <tick>] <message>
+
+The result includes (with tick):
+- Screen/level transitions (e.g., "Level Completed", "Back Level")
+- Life loss ("LOST_LIFE P1", "LOST_LIFE P2")
+- Riddle events (question, correct answer, user answer, and correctness)
+- Game end / exit markers ("GAME_EXIT")
+
+
+3) Silent report file: <base>.silent-report.txt
+-----------------------------------------------
+Purpose:
+- Created by -load -silent. Contains a summary of comparison between:
+  <base>.result.txt and <base>.expected.txt
+
+Includes:
+- Status: PASS/FAIL/BASELINE_CREATED
+- Equal lines count
+- First mismatch line and actual/expected content (if FAIL)
+
+===============================================================================

@@ -1,0 +1,72 @@
+================================================================================
+                              BONUS FEATURES
+                             ADVENTURE WORLD
+================================================================================
+
+Student: YUVAL ALEXANDRONY
+ID: 322218033
+
+================================================================================
+WHAT I ADDED
+================================================================================
+
+1. COLORS
+   -------------------
+   - All objects have colors
+   - Bombs flash when about to explode
+   - Switches change color when toggled
+   - Can turn colors off in menu (option 3)
+   - Game works fine without colors too
+   
+2. RANDOM TELEPORTS
+   -------------------
+   - Teleports send you to random other teleport
+   - Not just fixed pairs
+   - Makes game more interesting
+
+3. SMART ENEMIES 
+   -------------------
+   - Enemies chase the closest player (By ABS)
+   - They find path around walls
+   - If you have sword they die, otherwise you lose life
+   - They move every 2 game cycles ( not too fast ) by EntityManager  
+    - Defeat: By Bomb or sword 
+    
+4. SWORD OBJECT 
+   -------------------
+   -  If you have sword Enemis die, otherwise you lose life
+   - Found in some levels
+   - can be picked up/drop by player
+   - Sword disappears when player leave the room with it
+
+5. MINE OBJECT 
+   -------------------
+   -  mine explode when an player steps on them  ( -1 player life) 
+
+6. EXTRA LIFE OBJECTS 
+   -------------------
+   - Player get 1 Extra Life when an player steps on them  
+
+7. SAVE-MANAGER SYSTEM:
+   -------------------
+    - SAVE/LOAD complete game state (all levels, not just current)
+    - Preserves: player positions, inventories, lives, scores
+    - Preserves: object states (destroyed enemies, collected items, switch states)
+    - SAVE-  by (ESC -> 2 ) save copy and save all screens to (savedGame.txt) 
+    - LOAD-  by (MENU -> 2 ) LOAD the saved state & screens from (savedGame.txt) 
+
+8.  3 EXTRA SCREEN BOARD
+   -------------------
+    - Added 3 More board total 6 screens 
+    - complex board with 6 screens 
+    - each screen has different challenges
+    - player can move between screens
+
+
+================================================================================
+
+ID: 322218033
+
+================================================================================
+
+

@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME">
+      <UniqueIdentifier>{9b60eab7-f7f4-4b2b-9d27-ecb44d7fecdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files">
+      <UniqueIdentifier>{70de7e21-3bec-4695-8921-68a140eb456f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile">
+      <UniqueIdentifier>{ccde1764-6720-4d43-ba3d-01b7810ad576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile">
+      <UniqueIdentifier>{532d0bd1-bd72-4673-a23f-96141d9da738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems">
+      <UniqueIdentifier>{969c273b-f5cc-454d-82d9-e13eeeac0084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine">
+      <UniqueIdentifier>{94ecc3ce-faf0-48ca-a7e8-70ee09bc310d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front">
+      <UniqueIdentifier>{808e157a-e841-4601-89ef-021414b8964c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\Statements">
+      <UniqueIdentifier>{ebb47306-55d1-4674-95b5-69cac29f0836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager">
+      <UniqueIdentifier>{716478b8-4276-4659-b348-f61973d259be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\Boards">
+      <UniqueIdentifier>{9fd6450f-ad3c-414a-a512-75e02e970497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject">
+      <UniqueIdentifier>{eb2dbc02-863a-4698-9bde-d2ec8523985c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Board">
+      <UniqueIdentifier>{433a4d7d-25bd-4125-92d6-ceb7e85c318c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Screen">
+      <UniqueIdentifier>{93de1b43-8394-4e69-8da9-a99231127e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront">
+      <UniqueIdentifier>{196c2dd3-70c9-4d91-92e6-672aa6a05654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back">
+      <UniqueIdentifier>{a2493191-ea15-45a2-9cb0-bbb85510551e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity">
+      <UniqueIdentifier>{05b54bbe-031a-4168-874d-af328d4bad6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects">
+      <UniqueIdentifier>{85e74f29-9ec0-438b-9b35-21002fc3e044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects">
+      <UniqueIdentifier>{4fd1affb-5c19-4154-b095-d16df24f44d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem">
+      <UniqueIdentifier>{cc2bd2d8-f326-4d41-b9a3-e20521248a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem\Riddle">
+      <UniqueIdentifier>{373420a7-a405-4874-bb01-2505b8687630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem">
+      <UniqueIdentifier>{22610aeb-b2e6-4169-ad00-efddb2e8f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\Player">
+      <UniqueIdentifier>{4428141d-f999-4254-b432-57a355248833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back">
+      <UniqueIdentifier>{da561f08-bf0d-465b-96f9-313b745ee143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\FileManager">
+      <UniqueIdentifier>{48009263-78e6-44aa-a6db-e3ebd765b855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\README">
+      <UniqueIdentifier>{64f6bf9a-7578-4b26-8fcb-7c338cddf164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen">
+      <UniqueIdentifier>{b9be91af-beb9-47b2-a62d-150cdc97d0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\BaseGameObject">
+      <UniqueIdentifier>{3574c0e5-8580-47a7-ac43-08b0323c8c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects">
+      <UniqueIdentifier>{41e3832b-0470-4a9b-b112-d4acfd01362b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\SaveGameFile">
+      <UniqueIdentifier>{ff5a10f1-6fee-4ca4-bd99-829af9fde7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun">
+      <UniqueIdentifier>{3c084303-9171-4e90-8dd8-9f0c48af491c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx">
+      <UniqueIdentifier>{ff67aec4-c773-4e25-a588-de13e72b58d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\InputManagers">
+      <UniqueIdentifier>{0fb61d92-c58d-424e-982c-c56de8b95a2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Move.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardRenderer.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomBoard.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+    <ClCompile Include="LegendManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClCompile>
+    <ClCompile Include="BombObject.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClCompile>
+    <ClCompile Include="RiddleManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem\Riddle</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGameManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\BaseGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\InputManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSave.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoad.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSimple.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordManager.cpp">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="gameUserInstructions.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="theMainMenu.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="ExitGame.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="adv-world_01.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </Text>
+    <Text Include="adv-world_02.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </Text>
+    <Text Include="adv-world_03.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </Text>
+    <Text Include="GameOver.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="LevelUpDisplay.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="LevelDownDisplay.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="FinishGame.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="GAME_SAVED_SUCCESSFULLY.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DisplayFile</Filter>
+    </Text>
+    <Text Include="Bonus.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\README</Filter>
+    </Text>
+    <Text Include="README.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\README</Filter>
+    </Text>
+    <Text Include="Riddles.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile</Filter>
+    </Text>
+    <Text Include="savedGame.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\SaveGameFile</Filter>
+    </Text>
+    <Text Include="EX_1_game.result.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+    <Text Include="adv-world-silent-cmp-repo-screen.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun</Filter>
+    </Text>
+    <Text Include="files_format.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun</Filter>
+    </Text>
+    <Text Include="EX_1_game.steps.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+    <Text Include="EX_2_game.result.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+    <Text Include="EX_2_game.steps.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+    <Text Include="EX_3_game.steps.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+    <Text Include="EX_3_game.result.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun\3RunTestEx</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront\NavigationScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\Statements</Filter>
+    </ClInclude>
+    <ClInclude Include="RiddleManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem\Riddle</Filter>
+    </ClInclude>
+    <ClInclude Include="RiddleObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem\Riddle</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardRenderer.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBoard.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="LegendManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="TorchObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="BombObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\ActiveElem</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\DisplayObject\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGameManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\BaseGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSave.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoad.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSimple.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\GameModeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\InputManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputStrategies.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\InputManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputStrategy.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back\InputManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager\BaseGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Menegers-Back</Filter>
+    </ClInclude>
+    <ClInclude Include="MineObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFactory.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\theGameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraLifeObject.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Back\Entity\GameObjects\Objects\StaticElem</Filter>
+    </ClInclude>
+    <ClInclude Include="UIdisplayManager.h">
+      <Filter>Header Files\ADV-WORLD-GAME\GameSyestems\GameEngine\Front\ManagersFront</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="adv-world_04.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </None>
+    <None Include="adv-world_05.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </None>
+    <None Include="adv-world_06.screen">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\Boards</Filter>
+    </None>
+    <None Include="adv-world-cmp.result.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun</Filter>
+    </None>
+    <None Include="adv-world-cmp.steps.txt">
+      <Filter>Header Files\ADV-WORLD-GAME\Files\Source Files\DataFile\TestRun</Filter>
+    </None>
+  </ItemGroup>
+</Project>
