@@ -1,0 +1,25 @@
+################################################################################
+##  ___ _  _ ___ _____ ___   _ _  ___  ___ ____  ___  __  __ ____             ##
+## |_ _| \| / __|_   _| _ \ | | |/ __||   _| _ \/   \| | | |/ __|             ##
+##  | || .` \__ \ | | |   / | | | (__  | | |   / (_) | |_| |\__ \             ##
+## |___|_|\_|___/ |_| |_|_\_\___/\___| |_| |_|_\\___/ \___/ |___/             ##
+##                                                                            ##
+## - [ CONTROLS ] ----------------------------------------------------------  ##
+##   PLAYER 1 ($): W,A,X,D (Move) | E (Throw) | GENERAL: [ESC] Pause Game     ##
+##   PLAYER 2 (&): I,J,M,L (Move) | O (Throw) | MISSION: Escape the Facility! ##
+##                                                                            ##
+## - [ OBJECTS & LEGEND ] --------------------------------------------------  ##
+##   (D/0) DOOR      | LOCK/OPEN      | (K) KEY         | Opens Doors         ##
+##   (W) WALL        | Blocked        | (*) CRATE       | Pushable Object     ##
+##   (?) RIDDLE      | Question Pass  | (!) TORCH       | Lights up Room      ##
+##   (@) BOMB        | Blast Radius 3 | (/) SWITCH      | Toggle Mechanisms   ##
+##   (#) SPRING      | Speed Boost    | (^) TELEPORT    | Warps Player        ##
+##   (%) ENEMY       | Kill Player    | (|) SWORD       | Kills Enemies       ##
+##   (X/x) EXIT ROOM | LOCK/OPEN      | (+) EXTRA LIFE  | PLAYER GET 1+ LIFE  ##
+##   (.) MINE        | Kill Player    |                 |                     ##
+## - [ TIPS ] --------------------------------------------------------------  ##
+##   1. You must work together to Escape the Facility.                        ##
+##   2. Use Bombs to clear ways                                               ##
+##   2. Use Bombs\SWORD to kill Enemies (%).                                  ##
+##   3. Watch out! You share a level but have separate lives.                 ##
+#######################[PRESS ANY KEY TO RETURN TO MENU]########################

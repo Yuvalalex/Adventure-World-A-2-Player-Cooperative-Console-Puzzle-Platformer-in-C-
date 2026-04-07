@@ -1,0 +1,58 @@
+Freezing point of water (C)?|0
+France Capital? (1)Paris (2)London (3)Berlin|1
+Byte size? (1)4bit (2)8bit (3)16bit|2
+Square root of 16?|4
+Sun color? (1)Yellow (2)Blue (3)Red|1
+Best code language? (1)C# (2)C (3)C++|3
+Sky color? (1)Green (2)Blue|2
+Square root of 81?|9
+What Go Up? (1)Rain (2)Wind (3)Heat|3
+5 in Binary? (1)101 (2)111 (3)100|1
+Japan Capital? (1)Seoul (2)Tokyo (3)Kyoto|2
+Largest planet? (1)Mars (2)Jupiter (3)Noga|2
+(3!) = ?|6
+Month with 28 days? (1)Feb (2)All (3)None|2
+Boiling point water? (1)99 (2)100 (3)101|2
+Red Star? (1)Venus (2)Mars (3)Sun|2
+Capital of UK? (1)London (2)Bristol|1
+WW2 Start? (1)1914 (2)1939 (3)1945|2
+Opposite of Cold? (1)Hot (2)Ice|1
+Number of continents?|7
+H2O is known as? (1)Water (2)Salt|1
+Square root of 64?|8
+King of the jungle? (1)Tiger (2)Lion|2
+Smallest prime number?|2
+How many legs does a spider have?|8
+Number of Colors in a rainbow?|7
+Fastest land animal? (1)Cheetah (2)Lion|1
+Speed of Light? (1)C (2)E (3)A|1
+Solid state of water? (1)Ice (2)Steam|1
+Binary 1010? (1)12 (2)10 (3)8|2
+Num of Mars Moons? (1)1 (2)2 (3)4|2
+DNA Shape? (1)Line (2)Circ (3)Helix|3
+Largest Organ? (1)Skin (2)Liv (3)hrt|1
+Closest Star? (1)Sun (2)Prox (3)Sir|1
+Pointer Size? (1)4B (2)8B (3)16B|2
+Light km/s? (1)3k (2)300k (3)3M|2
+Most Populous? (1)Ind (2)USA (3)Rus|1
+Electron? (1)Pos (2)Neg (3)Neu|2
+Sound m/s? (1)343 (2)300 (3)1k|1
+Roman V? (1)5 (2)10 (3)50|1
+Roman L? (1)50 (2)100 (3)500|1
+Roman C? (1)100 (2)500 (3)1k|1
+Roman M? (1)500 (2)1k (3)1m|2
+1024 Bytes? (1)KB (2)MB (3)GB|1
+Human Bones? (1)200 (2)206 (3)210|2
+Spider Legs? (1)6 (2)8 (3)10|2
+Sun is? (1)Star (2)Plan (3)Sat|1
+Moon is? (1)Star (2)Sat (3)Plan|2
+i^2 = ? (1)1 (2)-1 (3)0|2
+log(1)? (1)0 (2)1 (3)e|1
+sin(90)? (1)0 (2)1 (3)-1|2
+cos(0)? (1)0 (2)1 (3)-1|2
+tan(45)? (1)0 (2)1 (3)inf|2
+2^10? (1)1k (2)1024 (3)512|2
+0/1 = ? (1)0 (2)1 (3)Err|1
+1/0 = ? (1)0 (2)1 (3)Err|3
+ASCII 'A'? (1)64 (2)65 (3)97|2
+ASCII 'a'? (1)65 (2)97 (3)90|2
