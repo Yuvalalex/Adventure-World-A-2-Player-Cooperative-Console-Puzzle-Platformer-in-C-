@@ -18,25 +18,7 @@
 **Adventure World** is a two-player cooperative puzzle game where both players share a single keyboard and must work together to escape a 6-level facility. Each level is a hand-crafted ASCII board filled with puzzles, enemies, traps, and mechanics that require coordination to overcome.
 The project was developed as a final assignment in an advanced Object-Oriented Programming course and demonstrates mastery of C++ OOP principles, clean architecture, and software design patterns.
 ---
-## Gameplay Demo
-```
-################################################################################
-##  ___ _  _ ___ _____ ___   _ _  ___  ___ ____  ___  __  __ ____            ##
-## |_ _| \| / __|_   _| _ \ | | |/ __||   _| _ \/   \| | | |/ __|            ##
-##  | || .` \__ \ | | |   / | | | (__  | | |   / (_) | |_| |\__ \            ##
-## |___|_|\_|___/ |_| |_|_\_\___/\___| |_| |_|_\\___/ \___/ |___/            ##
-################################################################################
-  PLAYER 1 ($): W A X D  │  PLAYER 2 (&): I J M L  │  [ESC] Pause
-################################################################################
-WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W  $  K!             W         %         W           !K  &     W
-W      .    .        W     ^       ^     W      .    .         W
-WWWWWWWWWWWWWWW?WWWWWW     ^       ^     WWWWWW?WWWWWWWWWWWWWWW
-W                    W     WWWWW WWWWW   W                     W
-W    @    K    @     W         %         W    @    K    @      W
-WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-  P1: ❤❤❤  Score:0  │  P2: ❤❤❤  Score:0  │  Level 1  │  Time: 0:00
-```
+
 ---
 ## Features
 | Feature | Description |
