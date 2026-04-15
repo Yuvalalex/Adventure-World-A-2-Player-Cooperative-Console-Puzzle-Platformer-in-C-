@@ -29,7 +29,7 @@ The project was developed as a final assignment in an advanced Object-Oriented P
 | 💾 **Save & Load** | Full game state persistence (position, score, lives, inventory, level) |
 | 🔁 **Record & Replay** | Save keypress sequences and replay them deterministically (used for testing) |
 | 🤫 **Silent Mode** | Headless automated replay for CI-style regression testing |
-| 👾 **Enemy AI** | Enemies patrol and respond to player positions |
+| 👾 **Enemy Smart** | Enemies patrol and respond to player positions |
 | 💣 **Bomb System** | Timed explosions with a blast radius of 3 cells |
 | 🌱 **Spring Mechanics** | Compress springs then launch with momentum transfer |
 | 🔦 **Fog / Torch** | Dark rooms that only reveal content when a torch is carried |
